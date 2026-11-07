@@ -14,5 +14,6 @@ typedef struct LinkedList
 
 void addNode(LinkedList* list, unsigned int newValue);
 int removeNode(LinkedList* list);
+LinkedList* initList();
 
 #endif
