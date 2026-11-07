@@ -17,6 +17,7 @@ int pop(Stack* s)
 void initStack(Stack* s)
 {
 	s->list = new LinkedList;
+	s->list->head = nullptr;
 }
 void cleanStack(Stack* s)
 {
